@@ -2,10 +2,11 @@ import React from "react";
 
 const CV = () => {
   return (
-    <div className="bg-gray-300 font-lato">
-      <h1 id="cv_middle" className="flex justify-center bg-gray-800 text-gray-100 m-6 rounded-full py-3 text-2xl">
-        MON CV
-      </h1>
+    <div className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center">
+
+    <main className="text-center p-6">
+      <h1 className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg">Mon cv</h1>
+    </main>
       <main className="bg-gray-100 m-2 py-5 px-4">
         <img src="photodemoi.png" alt="Tête de moi" className="w-full rounded-full bg-white" />
         <div className="text-center mt-4">

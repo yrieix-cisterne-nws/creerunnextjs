@@ -1,29 +1,21 @@
 import React from "react";
+import InterviewCarousel from "../component/Carousel";
 
 const Projet = () => {
   return (
     <div className="min-h-screen bg-gray-300 font-sans flex flex-col items-center">
-      {/* Header */}
       <header className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">
         Mes Projets
       </header>
-      
-      {/* Project Sections */}
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl">
-        <h2 className="text-xl font-semibold mb-2">Interview d'un étudiant</h2>
-        <p>
-          J'ai réalisé une interview et créé un carrousel pour présenter un étudiant de la Normandie Web School, en alternance chez
-          <a href="https://jwin.fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> JWIN</a>.
-        </p>
-        <img src="/assets/images/carousel/interview.png" alt="Interview " className="w-full mt-4 rounded-lg" />
-      </section>
+
+      <InterviewCarousel/>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 className="text-xl font-semibold mb-2">HANDISUP</h2>
         <p>
-          <span className="text-red-500 font-bold">CE PROJET EST EN COURS</span>
+          <span className="text-red-500 font-bold">CE PROJET EST EN ATTENTE D'UNE REPONSE</span>
           <br />
-          En équipe sur ce projet, la NWS nous a mis en relation avec HANDISUP pour améliorer leur site web tout en respectant certaines contraintes.
+          En équipe sur ce projet, la NWS nous a mis en relation avec HANDISUP pour améliorer leur site web tout en respectant certaines contraintes donnée par HANDISUP. <a href="https://handisup6.normandieweb.school/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Voici le site réalisé par le groupe.</a> Si le site venais à être choisis, une version responsive serais envisagable 
         </p>
         <img src="handisup_actu.png" alt="HANDISUP section actualité" className="w-full mt-4 rounded-lg" />
       </section>

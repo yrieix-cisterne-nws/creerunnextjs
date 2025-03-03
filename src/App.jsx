@@ -6,6 +6,7 @@ import CV from "./pages/CV";
 import Contact from "./pages/Contact";
 import Mentions from "./pages/Mentions";
 import Projet from "./pages/Projet";
+import Bio from "./pages/Bio";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/mentions" element={<Mentions />} />
           <Route path="/projet" element={<Projet />} />
+          <Route path="/bio" element={<Bio />} />
         </Routes>
       </div>
       <Footer />
