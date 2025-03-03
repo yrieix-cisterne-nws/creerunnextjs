@@ -11,7 +11,7 @@ const Home = () => {
           <main className="text-center p-6">
           <h1 className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg">A propos de moi</h1>
         </main>
-            <img src="photodemoi.png" alt="Yrieix Cisterne" className="h-[100px] block m-auto" />
+            <img src="photodemoi.png" alt="Yrieix Cisterne" className="h-[100px] block m-auto sm:h-[250px] lg:h-[250px]" />
             
             <div id="main_text" className="justify-center top-1/2 text-black">
               <p className="background_text p-5 bg-[#f5f5f5] rounded-[50px] mb-5 mx-[5px]">

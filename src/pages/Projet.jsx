@@ -27,7 +27,7 @@ const Projet = () => {
           <a href="https://www.figma.com/fr-fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> Figma</a>
           en HTML et CSS.
         </p>
-        <img src="maquettefigma.png" alt="Maquette Figma" className="w-full mt-4 rounded-lg" />
+        <img src="maquettefigma.png" alt="Maquette Figma" className="w-full mt-4 rounded-lg sm:h-[500px] object-cover" />
       </section>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">

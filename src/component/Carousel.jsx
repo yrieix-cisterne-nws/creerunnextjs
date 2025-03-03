@@ -31,7 +31,7 @@ const InterviewCarousel = () => {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        className="mt-4"
+        className="mt-4 sm:h-[950px] object-contain "
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
