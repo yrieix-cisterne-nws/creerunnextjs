@@ -1,5 +1,6 @@
 import React from "react";
 import InterviewCarousel from "../component/Carousel";
+import { Link } from "react-router-dom";
 
 const Projet = () => {
   return (
@@ -67,7 +68,11 @@ const Projet = () => {
         ce logo comprend mes initiales pour mon Prénom et mon Nom, j'ai voulu en
         faire un logo chic et élégant.
         </p>
-        <img src="/logoycbw.jpg" alt="Mon logo personnel" className="w-full mt-4 rounded-lg" />
+        <Link
+        to="/charte">
+        <img src="/charte/logoycbw.jpg" alt="Mon logo personnel" className="w-full mt-4 rounded-lg" />
+        </Link>
+        
         </div>
       </section>
 
