@@ -6,25 +6,25 @@ import { Navigation, Pagination } from "swiper/modules";
 
 const InterviewCarousel = () => {
   const images = [
-    "/interview.png",
-    "/q1.png",
-    "/q2.png",
-    "/q3.png",
-    "/q4.png",
-    "/q5.png",
-    "/q6.png",
-    "/q7.png",
+    "/carousel/interview.png",
+    "/carousel/q1.png",
+    "/carousel/q2.png",
+    "/carousel/q3.png",
+    "/carousel/q4.png",
+    "/carousel/q5.png",
+    "/carousel/q6.png",
+    "/carousel/q7.png",
   ];
 
   return (
     <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl pr-4 ml-2 mr-2">
       <h2 className="text-xl font-semibold mb-2">Interview d'un étudiant</h2>
+
       <p>
         J'ai réalisé une interview et créé un carrousel pour présenter un étudiant de la Normandie Web School, en alternance chez
         <a href="https://jwin.fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> JWIN</a>.
       </p>
 
-      {/* Swiper Carrousel */}
       <Swiper
         modules={[Navigation, Pagination]}
         spaceBetween={10}

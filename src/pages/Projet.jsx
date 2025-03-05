@@ -12,22 +12,26 @@ const Projet = () => {
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 className="text-xl font-semibold mb-2">HANDISUP</h2>
+        <div className="md:grid md:grid-cols-2">
         <p>
           <span className="text-red-500 font-bold">CE PROJET EST EN ATTENTE D'UNE REPONSE</span>
           <br />
           En équipe sur ce projet, la NWS nous a mis en relation avec HANDISUP pour améliorer leur site web tout en respectant certaines contraintes donnée par HANDISUP. <a href="https://handisup6.normandieweb.school/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Voici le site réalisé par le groupe.</a> Si le site venais à être choisis, une version responsive serais envisagable 
         </p>
-        <img src="handisup_actu.png" alt="HANDISUP section actualité" className="w-full mt-4 rounded-lg" />
+        <img src="/projet/handisup_actu.png" alt="HANDISUP section actualité" className="w-full mt-4 rounded-lg" />
+        </div>
       </section>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 className="text-xl font-semibold mb-2">Intégration d'une maquette Figma</h2>
+        <div className="md:grid md:grid-cols-2">
         <p>
           Dans ce projet, j'ai reproduit une maquette provenant de
           <a href="https://www.figma.com/fr-fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> Figma</a>
           en HTML et CSS.
         </p>
-        <img src="maquettefigma.png" alt="Maquette Figma" className="w-full mt-4 rounded-lg sm:h-[500px] object-cover" />
+        <img src="/projet/maquettefigma.png" alt="Maquette Figma" className="w-full mt-4 rounded-lg sm:h-[500px] md:h-[250px] object-cover" />
+        </div>
       </section>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
@@ -40,7 +44,7 @@ const Projet = () => {
         <a href="https://nino-rameau.github.io/normandie-blog-school/index.html" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> ce site est fictif </a>
             et tout le code est déposé sur <a href="https://github.com/yrieix-cisterne-nws/normandie-blog-school/tree/main" className="text-blue-500 underline" target="_blank" rel="nooperner noreferrer">Github</a>
         </p>
-        <img src="normandiebs.png" alt="Page Accueil Normandie Blog School" className="w-full mt-4 rounded-lg" />
+        <img src="/projet/normandiebs.png" alt="Page Accueil Normandie Blog School" className="w-full mt-4 rounded-lg" />
       </section>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
@@ -51,18 +55,20 @@ const Projet = () => {
         diaporama pour présenter nos idée au Club Eco St.Sever comme un nouveau
         logo pour le club
         </p>
-        <img src="clubeco.png" alt="Logo pour club eco St.Sever" className="w-full mt-4 rounded-lg" />
+        <img src="/projet/clubeco.png" alt="Logo pour club eco St.Sever" className="w-full mt-4 rounded-lg" />
       </section>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 className="text-xl font-semibold mb-2">Logo personnel</h2>
+        <div className="md:grid md:grid-cols-2">
         <p>
         Dans le but de définir mon identité sur le web, j'ai conçu ce logo pour
         mon portfolio et autres création,
         ce logo comprend mes initiales pour mon Prénom et mon Nom, j'ai voulu en
         faire un logo chic et élégant.
         </p>
-        <img src="logoycbw.png" alt="Mon logo personnel" className="w-full mt-4 rounded-lg" />
+        <img src="/logoycbw.jpg" alt="Mon logo personnel" className="w-full mt-4 rounded-lg" />
+        </div>
       </section>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6 mb-6">
@@ -74,7 +80,7 @@ const Projet = () => {
         <a href="https://github.com/modzarlino/de" target="_blank" className="text-blue-500 underline" rel="noopener noreferrer"> Github </a>
         sur mon Github personel.
         </p>
-        <img src="des.png" alt="Des produit aléatoirement" className="w-full mt-4 rounded-lg" />
+        <img src="/projet/des.png" alt="Des produit aléatoirement" className="w-full mt-4 rounded-lg" />
       </section>
       
       
