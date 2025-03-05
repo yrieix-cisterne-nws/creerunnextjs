@@ -12,6 +12,24 @@ const Projet = () => {
       <InterviewCarousel/>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
+        <h2 className="text-xl font-semibold mb-2">Maquette du site</h2>
+        <div className="md:grid md:grid-cols-2">
+        <p>
+         Dans le but de créer un portfolio, j'ai du créer une maquette de mon site web, voici les couleurs utilisé : 
+         <br/> -#2E2E2E (Barre de navigation et Footer) 
+         <br/> -#D1D5DB (Background)
+         <br/> -#374151 (Header)
+         <br/> -#FFFFF et #E5E7EB (Bloc de contenu) 
+         <br/>
+         <br/>Pour le corps de texte, j'utilise  Segoe UI et pour les titres Segoe UI Semibold 
+        </p>
+        <a href="/Maquette.zip" download="Maquette.zip">
+        <img src="/maquettepc.png" alt="Maquette site web" className="w-full mt-4 rounded-lg" /></a>
+
+        </div>
+      </section>
+
+      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 className="text-xl font-semibold mb-2">HANDISUP</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
@@ -70,7 +88,7 @@ const Projet = () => {
         </p>
         <Link
         to="/charte">
-        <img src="/charte/logoycbw.jpg" alt="Mon logo personnel" className="w-full mt-4 rounded-lg" />
+        <img src="/charte/logoycbw.jpg" alt="Mon logo personnel" className="w-full rounded-lg h-[350px] object-contain" />
         </Link>
         
         </div>

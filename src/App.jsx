@@ -9,11 +9,11 @@ import Projet from "./pages/Projet";
 import Bio from "./pages/Bio";
 import Charte from "./pages/Charte";
 
+
 function App() {
   return (
     <Router>
       <Navbar />
-      <div className="bg-[#d3d3d3]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cv" element={<CV />} />
@@ -23,7 +23,6 @@ function App() {
           <Route path="/bio" element={<Bio />} />
           <Route path="/charte" element={<Charte/>} />
         </Routes>
-      </div>
       <Footer />
     </Router>
   );
