@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Mentions from "./pages/Mentions";
 import Projet from "./pages/Projet";
 import Bio from "./pages/Bio";
+import Charte from "./pages/Charte";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/mentions" element={<Mentions />} />
           <Route path="/projet" element={<Projet />} />
           <Route path="/bio" element={<Bio />} />
+          <Route path="/charte" element={<Charte/>} />
         </Routes>
       </div>
       <Footer />

@@ -6,7 +6,7 @@ const CV = () => {
 
       <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-full max-w-2xl lg:w-2/3">
         <div className="flex flex-col items-center">
-          <img src="photodemoi.png" alt="Tête de moi" className="w-32 h-32 rounded-full bg-white mb-4" />
+          <img src="photodemoi.png" alt="Tête de moi" className="w-auto h-auto rounded-full bg-white mb-4" />
           <p className="text-lg font-bold text-center">
             CISTERNE <br /> YRIEIX <br /> DEVELOPPEUR WEB
           </p>

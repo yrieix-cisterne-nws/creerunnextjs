@@ -62,7 +62,7 @@ const Projet = () => {
         ce logo comprend mes initiales pour mon Prénom et mon Nom, j'ai voulu en
         faire un logo chic et élégant.
         </p>
-        <img src="logoyc.png" alt="Mon logo personnel" className="w-full mt-4 rounded-lg" />
+        <img src="logoycbw.png" alt="Mon logo personnel" className="w-full mt-4 rounded-lg" />
       </section>
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6 mb-6">
