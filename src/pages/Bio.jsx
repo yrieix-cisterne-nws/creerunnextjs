@@ -1,9 +1,9 @@
 const Bio = () => {
     return(
-        <div className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center">
+        <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center">
 
         <main className="text-center p-6">
-          <h1 className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg">Un peu plus sur moi</h1>
+          <h1 style={{fontFamily: 'Roboto Mono'}} className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg">Un peu plus sur moi</h1>
         </main>
     <p className="background_text p-5 bg-[#f5f5f5] rounded-[50px] mb-5 mx-[5px]">
     Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en

@@ -2,7 +2,7 @@ import React from "react";
 
 const CV = () => {
   return (
-    <div className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center p-4 lg:flex-row lg:items-start lg:gap-8">
+    <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center p-4 lg:flex-row lg:items-start lg:gap-8">
 
       <div className="absolute top-36"><a href="/cv.pdf" download="CV Yrieix Cisterne" className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">Télécharger mon CV</a></div>
       <div className="bg-white mt-24 p-6 rounded-lg shadow-lg w-full max-w-2xl lg:w-2/3">

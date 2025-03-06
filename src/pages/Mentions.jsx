@@ -1,8 +1,8 @@
 const LegalMentions = () => {
     return (
-      <div className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center p-6">
+      <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center p-6">
         <main className="text-center w-full max-w-3xl">
-          <h1 className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg mb-6">
+          <h1 style={{fontFamily: 'Roboto Mono'}} className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg mb-6">
             Mentions Légales
           </h1>
           
