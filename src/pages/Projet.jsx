@@ -15,13 +15,13 @@ const Projet = () => {
         <h2 className="text-xl font-semibold mb-2">Maquette du site</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
-         Dans le but de créer un portfolio, j'ai du créer une maquette de mon site web, voici les couleurs utilisé : 
-         <br/> -#2E2E2E (Barre de navigation et Footer) 
-         <br/> -#D1D5DB (Background)
-         <br/> -#374151 (Header)
-         <br/> -#FFFFF et #E5E7EB (Bloc de contenu) 
-         <br/>
-         <br/>Pour le corps de texte, j'utilise  Segoe UI et pour les titres Segoe UI Semibold 
+        Dans le but de créer un portfolio, j'ai dû créer une maquette de mon site web, voici les couleurs utilisées : 
+        <br/>-#2E2E2E (Barre de navigation et Footer) 
+        <br/>-#D1D5DB (Background)
+        <br/>-#374151 (Header)
+        <br/>-#FFFFF et #E5E7EB (Bloc de contenu) 
+        <br/>
+        <br/>Pour le corps de texte, j'utilise Segoe UI et pour les titres Segoe UI Semibold. 
         </p>
         <a href="/Maquette.zip" download="Maquette.zip">
         <img src="/maquettepc.png" alt="Maquette site web" className="w-full mt-4 rounded-lg" /></a>
@@ -35,7 +35,8 @@ const Projet = () => {
         <p>
           <span className="text-red-500 font-bold">CE PROJET EST EN ATTENTE D'UNE REPONSE</span>
           <br />
-          En équipe sur ce projet, la NWS nous a mis en relation avec HANDISUP pour améliorer leur site web tout en respectant certaines contraintes donnée par HANDISUP. <a href="https://handisup6.normandieweb.school/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Voici le site réalisé par le groupe.</a> Si le site venais à être choisis, une version responsive serais envisagable 
+          En équipe sur ce projet, la NWS nous a mis en relation avec HANDISUP pour améliorer leur site web tout en 
+          respectant certaines contraintes donnée par HANDISUP. <a href="https://handisup6.normandieweb.school/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Voici le site réalisé par le groupe.</a> Si le site venait à être choisi, une version responsive serais envisageable 
         </p>
         <img src="/projet/handisup_actu.png" alt="HANDISUP section actualité" className="w-full mt-4 rounded-lg" />
         </div>
@@ -47,7 +48,7 @@ const Projet = () => {
         <p>
           Dans ce projet, j'ai reproduit une maquette provenant de
           <a href="https://www.figma.com/fr-fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> Figma</a>
-          en HTML et CSS.
+          en HTML et CSS. J'ai appris l'importance des "div" pour structure une page web.
         </p>
         <img src="/projet/maquettefigma.png" alt="Maquette Figma" className="w-full mt-4 rounded-lg sm:h-[500px] md:h-[250px] object-cover" />
         </div>
@@ -56,10 +57,8 @@ const Projet = () => {
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 className="text-xl font-semibold mb-2">Normandie Blog School</h2>
         <p>
-        Ce projet à été réalisé à la Normandie Web School (NWS) en équipe avec
-        d'autres élèves de la NWS comme des développeurs web et des Graphistes,
-        nous avons décider de partie sur un blog d'entraide entre personne de
-        l'école, 
+        Ce projet a été réalisé à la Normandie Web School (NWS) en équipe avec d'autres élèves de la NWS comme des développeurs web 
+        et des Graphistes, nous avons décidé de partie sur un blog d'entraide entre personne de l'école, 
         <a href="https://nino-rameau.github.io/normandie-blog-school/index.html" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> ce site est fictif </a>
             et tout le code est déposé sur <a href="https://github.com/yrieix-cisterne-nws/normandie-blog-school/tree/main" className="text-blue-500 underline" target="_blank" rel="nooperner noreferrer">Github</a>
         </p>
@@ -81,10 +80,9 @@ const Projet = () => {
         <h2 className="text-xl font-semibold mb-2">Logo personnel</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
-        Dans le but de définir mon identité sur le web, j'ai conçu ce logo pour
-        mon portfolio et autres création,
-        ce logo comprend mes initiales pour mon Prénom et mon Nom, j'ai voulu en
-        faire un logo chic et élégant.
+        Dans le but de définir mon identité sur le web, j'ai conçu ce logo pour mon portfolio et d'autres créations, 
+        ce logo comprend mes initiales pour mon prénom et mon nom, j'ai voulu en faire un logo chic et élégant. 
+        En cliquant sur le logo, vous pourrez voir la charte graphique pour mon logo
         </p>
         <Link
         to="/charte">
@@ -97,9 +95,8 @@ const Projet = () => {
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6 mb-6">
         <h2 className="text-xl font-semibold mb-2">Projet Dés</h2>
         <p>
-        J'ai réalisé ce projet en 2023 à l'aide de Python, il a été réalisé
-        pendant mon année de première. Ce projet m'a permis de découvrir comment
-        utiliser la librairie "Turtle". Tout le code est déposé sur 
+        J'ai réalisé ce projet en 2023 à l'aide de Python, il a été réalisé pendant mon année de première. 
+        Ce projet m'a permis de découvrir comment utiliser la librairie "Turtle". Tout le code est déposé sûr 
         <a href="https://github.com/modzarlino/de" target="_blank" className="text-blue-500 underline" rel="noopener noreferrer"> Github </a>
         sur mon Github personel.
         </p>
