@@ -8,6 +8,7 @@ import Mentions from "./pages/Mentions";
 import Projet from "./pages/Projet";
 import Bio from "./pages/Bio";
 import Charte from "./pages/Charte";
+import Erreur from "./pages/Erreur";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projet" element={<Projet />} />
           <Route path="/bio" element={<Bio />} />
           <Route path="/charte" element={<Charte/>} />
+          <Route path="*" element={<Erreur/>} />
         </Routes>
       <Footer />
     </Router>
