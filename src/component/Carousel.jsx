@@ -22,7 +22,7 @@ const InterviewCarousel = () => {
 
       <p>
         J'ai réalisé une interview et créé un carrousel pour présenter un étudiant de la Normandie Web School, en alternance chez
-        <a href="https://jwin.fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> JWIN</a>.
+        <a href="https://jwin.fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> JWIN</a>. Il y travaille en tant que Développeur web.
       </p>
 
       <Swiper

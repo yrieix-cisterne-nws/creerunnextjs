@@ -13,7 +13,7 @@ const Home = () => {
         </main>
             <img src="photodemoi.png" alt="Yrieix Cisterne" className="h-[100px] block m-auto sm:h-[250px] lg:h-[250px]" />
             
-            <div id="main_text" style={{ fontFamily: 'Roboto'}} className="justify-center top-1/2 text-black">
+            <div id="main_text" style={{ fontFamily: 'Roboto'}} className="justify-center top-1/2 text-black pt-4">
               <p className="background_text p-5 bg-[#f5f5f5] rounded-[50px] mb-5 mx-[5px]">
               Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en
             première année de Bachelor Chef de Projets Digitaux. J'étudie à la
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </section>
   
-        <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/waterbackground.png")] w-full h-[100px]'>
+        <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/waterbackground.png")] w-full h-[100px] pt-4'>
           <p id="status_text" className="flex justify-center content-center">
             ACTUELLEMENT : <br /> <br /> En recherche de stage
           </p>
