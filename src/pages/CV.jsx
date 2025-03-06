@@ -85,6 +85,18 @@ const CV = () => {
             </p>
           </div>
         </div>
+
+        <div className="text-center mt-6">
+          <p className="text-xl font-bold">PROJETS PROFESSIONNEL</p>
+          <div className="flex justify-between px-12 mt-4">
+            <p>2024 - Création d'un site web sur Wordpress pour l'association HANDISUP
+            <br/>
+               2024 - Travaille en équipe pour aider le Club Eco St.Sever dans une nouvelle direction artistique
+            <br/>
+               2022 - Création d'un projet Python sur les dé dans le but de comprendre le module "Turtle"
+            </p>
+          </div>
+        </div>
       </section>
 
     </div>

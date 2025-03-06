@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-      <main>
+      <main className="bg-gray-300">
         <div id="image_pc" className='bg-[url("./assets/images/ecrandepc.png")] w-full h-[220px] bg-no-repeat bg-cover'>
         </div>
   
         <section>
           <div>
           <main className="text-center p-6">
-          <h1 className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg">A propos de moi</h1>
+          <h1 className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">A propos de moi</h1>
         </main>
             <img src="photodemoi.png" alt="Yrieix Cisterne" className="h-[100px] block m-auto sm:h-[250px] lg:h-[250px]" />
             

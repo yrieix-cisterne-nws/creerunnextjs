@@ -47,7 +47,7 @@ const Projet = () => {
         <div className="md:grid md:grid-cols-2">
         <p>
           Dans ce projet, j'ai reproduit une maquette provenant de
-          <a href="https://www.figma.com/fr-fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> Figma</a>
+          <a href="https://www.figma.com/fr-fr/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> Figma </a>
           en HTML et CSS. J'ai appris l'importance des "div" pour structure une page web.
         </p>
         <img src="/projet/maquettefigma.png" alt="Maquette Figma" className="w-full mt-4 rounded-lg sm:h-[500px] md:h-[250px] object-cover" />

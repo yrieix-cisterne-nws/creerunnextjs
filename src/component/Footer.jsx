@@ -8,7 +8,7 @@ export const Footer = () => {
         <br />
           <Link
             to="/mentions"
-            className="block p-1 w-[8em]"
+            className="block p-1 w-[8.1em]"
           >
             Mentions légales
           </Link>
