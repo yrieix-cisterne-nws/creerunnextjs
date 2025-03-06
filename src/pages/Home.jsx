@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import InterviewCarousel from "../component/Carousel";
 
 const Home = () => {
     return (
@@ -32,6 +33,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <div className="flex justify-center pb-4"><InterviewCarousel/></div>
   
         <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/waterbackground.png")] w-full h-[100px] pt-4'>
           <p id="status_text" className="flex justify-center content-center">

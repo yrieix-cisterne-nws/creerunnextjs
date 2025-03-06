@@ -13,7 +13,7 @@ const Charte = () => {
                 <p>Éléments graphiques : 
                     <ul className="list-disc list-inside">
                         <li>Les initiales YC qui représent les initiales de mon prénom Yrieix Cisterne,</li>
-                        <li>Le rond sur la boucle haut de la lettre C qui représente une boucle infinie.</li>
+                        <li>Le rond qui forme aussi la lettre i grâce à la barre droite de la lettre Y.</li>
                     </ul>
                 </p></div>
             </div>
@@ -36,7 +36,7 @@ const Charte = () => {
                 <div><img src="/charte/logoycbwc.jpg" alt="Interdit couleur modifié"/><p>Interdiction de modifié les couleurs</p></div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-                <div><img src="/charte/logoycnbg.png" alt="Interdit logo sans fond"></img><p>Interdiction de ne pas avoir de fond</p></div>
+                <div className="bg-gray-300"><img src="/charte/logoycno_bg.png" alt="Interdit logo sans fond"></img><p>Interdiction de ne pas avoir de fond</p></div>
                 <div><img src="/charte/logoycbool.jpg" alt="Interdit la boule est tombé"></img><p>Interdiction de retirer la boule</p></div>
             </div>
             </div>

@@ -36,7 +36,7 @@ const LegalMentions = () => {
             </div>
             
             <div>
-              <h2 className="text-xl font-semibold">5. Liens externes</h2>
+              <h2 className="text-xl font-semibold">4. Liens externes</h2>
               <p>
                 Le site peut contenir des liens hypertextes vers d’autres sites Internet. L’éditeur du site
                 ne peut être tenu responsable du contenu de ces sites.
@@ -44,7 +44,7 @@ const LegalMentions = () => {
             </div>
             
             <div>
-              <h2 className="text-xl font-semibold">6. Données personnelles</h2>
+              <h2 className="text-xl font-semibold">5. Données personnelles</h2>
               <p>Ce site ne collecte aucune donnée personnelle et ne possède aucun cookie.</p>
             </div>
           </section>

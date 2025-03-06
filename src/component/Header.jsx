@@ -55,7 +55,7 @@ export const Navbar = () => {
       </div>
 
       <ul
-        className={`lg:flex lg:space-x-4 lg:static absolute top-16 left-0 w-full bg-[#2e2e2e] transition-all duration-300 ${
+        className={`lg:flex lg:space-x-4 lg:static absolute top-16 left-0 w-full bg-[#2e2e2e] transition-all duration-300 z-50 ${
           isOpen ? "block" : "hidden"
         }`}
       >
