@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Erreur = () => {
     return (
-        <div style={{ fontFamily: 'Roboto'}} className="h-[100vh]">
+        <div style={{ fontFamily: 'Roboto'}} className="h-[100vh] bg-gray-300">
             <p style={{ fontFamily: 'Roboto Mono'}} className="flex justify-center text-center text-7xl">
             Erreur 404</p>
         <br/>
