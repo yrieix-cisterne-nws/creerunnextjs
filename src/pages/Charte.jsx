@@ -1,7 +1,9 @@
+import { Titre } from "../component/Titre";
+
 const Charte = () => {
     return (
         <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col items-center">
-            <div style={{fontFamily: 'Roboto Mono'}} className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">Comment le logo est formée ?</div>
+            <Titre title={"Comment le logo est formée ?"}/>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
                 <div><img src="/charte/logoycbw.jpg" alt="Logo Yrieix Cisterne"/></div>
                 <div><p>Couleur : 
@@ -17,12 +19,12 @@ const Charte = () => {
                     </ul>
                 </p></div>
             </div>
-            <div style={{fontFamily: 'Roboto Mono'}} className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">Typographie</div>
+            <Titre title={"Typographie"}/>
             <div className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
             <div style={{ fontFamily: 'Prata'}} className="flex justify-center"><p className="text-2xl whitespace-nowrap">Felix Tilting</p></div>
             <div style={{ fontFamily: 'Prata'}} className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel tincidunt massa, in tempus ante.</div>
             </div>
-            <div style={{fontFamily: 'Roboto Mono'}} className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">Logo et ses variantes :</div>
+            <Titre title={"Logo et ses variantes :"}/>
             <div className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
                 <div><img src="/charte/logoycbwt.jpg" alt="Logo Yrieix Cisterne horizontal nom"/><p>Logo horizontal avec le nom</p></div>

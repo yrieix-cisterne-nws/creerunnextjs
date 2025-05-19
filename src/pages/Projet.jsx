@@ -1,13 +1,12 @@
 import React from "react";
 import InterviewCarousel from "../component/Carousel";
 import { Link } from "react-router-dom";
+import { Titre } from "../component/Titre";
 
 const Projet = () => {
   return (
     <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col items-center">
-      <header className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">
-        Mes Projets
-      </header>
+     <Titre title={"Mes Projets"}/>
 
       <InterviewCarousel/>
 

@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 import InterviewCarousel from "../component/Carousel";
+import { Titre } from "../component/Titre";
+
 
 const Home = () => {
     return (
       <main style={{ fontFamily: 'Roboto'}} className="bg-gray-300">
-        <div id="image_pc" className='bg-[url("./assets/images/ecrandepc.png")] w-full h-[220px] bg-no-repeat bg-cover'>
-        </div>
   
         <section>
           <div>
-          <main className="text-center p-6">
-          <h1 style={{fontFamily: 'Roboto Mono'}} className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-6">A propos de moi</h1>
-        </main>
+
+          <Titre title={"Accueil"}/>
+
             <img src="photodemoi.png" alt="Yrieix Cisterne" className="h-[100px] block m-auto sm:h-[250px] lg:h-[250px]" />
             
             <div id="main_text" style={{ fontFamily: 'Roboto'}} className="justify-center top-1/2 text-black pt-4">
@@ -37,7 +37,7 @@ const Home = () => {
   
         <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/waterbackground.png")] w-full h-[100px] pt-4'>
           <p id="status_text" className="flex justify-center content-center">
-            ACTUELLEMENT : <br /> <br /> En recherche de stage
+            ACTUELLEMENT : <br /> <br /> En stage
           </p>
         </div>
       </main>

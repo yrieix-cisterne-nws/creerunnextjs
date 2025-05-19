@@ -1,10 +1,12 @@
+import { Titre } from "../component/Titre";
+
 const Contact = () => {
   return (
     <div style={{ fontFamily: 'Roboto'}}  className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center">
 
-      <main className="text-center p-6">
-        <h1 style={{fontFamily: 'Roboto Mono'}} className="bg-gray-700 text-white text-2xl font-bold py-4 rounded-lg">Pour me contacter</h1>
-      </main>
+
+        <Titre title={"Pour me contacter"}/>
+
       
 
       <section className="p-6 bg-white rounded-lg shadow-lg mx-6 text-center">

@@ -5,7 +5,7 @@ const Erreur = () => {
     return (
         <div style={{ fontFamily: 'Roboto'}} className="h-[100vh] bg-gray-300">
             <p style={{ fontFamily: 'Roboto Mono'}} className="flex justify-center text-center text-7xl">
-            Erreur 404</p>
+            Erreur</p>
         <br/>
         <br/>
             <p className="flex justify-center text-center">La page que vous chercher n'existe pas ou n'est plus disponible,
