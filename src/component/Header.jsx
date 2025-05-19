@@ -11,12 +11,7 @@ export const Navbar = () => {
   return (
     <nav style={{ fontFamily: 'Roboto'}} className="bg-[#2e2e2e] text-white p-4 relative">
       <div className="flex justify-between items-center">
-        <Link to="/" 
-        className="text-xl font-bold hover:text-gray-300"
-        onClick={() => setIsOpen(false)}>
-          
-          Accueil
-        </Link>
+
 
         <button
           onClick={toggleMenu}
@@ -62,6 +57,15 @@ export const Navbar = () => {
           isOpen ? "block" : "hidden"
         }`}
       >
+        <li>
+          <Link
+            to="/"
+            className="block p-4 text-white hover:bg-[#4e4e4e] z-100"
+            onClick={() => setIsOpen(false)}
+            >
+              Accueil
+            </Link>
+        </li>
         <li>
           <Link
             to="/cv"
