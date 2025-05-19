@@ -37,7 +37,7 @@ const Home = () => {
   
         <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/waterbackground.png")] w-full h-[100px] pt-4'>
           <p id="status_text" className="flex justify-center content-center">
-            ACTUELLEMENT : <br /> <br /> En stage
+            ACTUELLEMENT : <br /> <br /> EN STAGE
           </p>
         </div>
       </main>
