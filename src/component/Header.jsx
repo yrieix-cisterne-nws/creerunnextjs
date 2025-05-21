@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation} from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,6 +8,7 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const location = useLocation();
   return (
     <div>
     <nav style={{ fontFamily: 'Roboto'}} className="bg-[#2e2e2e] text-white p-4 relative">
@@ -53,13 +54,14 @@ export const Navbar = () => {
   <div className="grid grid-cols-2">
       <ul
         className={`lg:flex lg:space-x-4 lg:static absolute top-16 left-0 w-full bg-[#2e2e2e] transition-all duration-300 z-50 ${
-          isOpen ? "block" : "hidden"
+          isOpen ? "block" : "hidden" //ternaire pour afficher ou masquer le menu
         }`}
       >
         <li>
           <Link
             to="/"
-            className="block p-4 text-white hover:bg-[#4e4e4e] bg-[#b89e14] z-100"
+            className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${
+            location.pathname === '/' ? 'bg-[#b89e14]' : ''}`}  //ternaire pour changer la couleur de fond du lien actif
             onClick={() => setIsOpen(false)}
             >
               Accueil
@@ -68,7 +70,8 @@ export const Navbar = () => {
         <li>
           <Link
             to="/cv"
-            className="block p-4 text-white hover:bg-[#4e4e4e] z-100"
+            className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${
+            location.pathname === '/cv' ? 'bg-[#b89e14]' : ''}`}
             onClick={() => setIsOpen(false)}
           >
             CV
@@ -77,7 +80,8 @@ export const Navbar = () => {
         <li>
           <Link
             to="/contact"
-            className="block p-4 text-white hover:bg-[#4e4e4e] z-100"
+            className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${
+            location.pathname === '/contact' ? 'bg-[#b89e14]' : ''}`}
             onClick={() => setIsOpen(false)}
           >
             Contact
@@ -86,7 +90,8 @@ export const Navbar = () => {
         <li>
           <Link
           to="/projet"
-          className="block p-4 text-white hover:bg-[#4e4e4e] z-100"
+          className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${
+          location.pathname === '/projet' ? 'bg-[#b89e14]' : ''}`}
           onClick={() => setIsOpen(false)}
           >
             Projet

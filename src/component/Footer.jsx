@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div style={{ fontFamily: 'Roboto'}} className="pt-4 bg-gray-300">
       <footer className="bg-[#2e2e2e] text-white p-1 grid grid-cols-2">
-        <p>© 2025 Yrieix Cisterne. Tous droits réservés.</p>
+        <p>© 2025 Yrieix Cisterne. Tous droits réservés.
         <br />
           <Link
             to="/mentions"
@@ -13,6 +13,7 @@ export const Footer = () => {
           >
             Mentions légales
           </Link>
+          </p>
           <div className="flex justify-end">
           <a href="https://www.linkedin.com/in/yrieix-cisterne-96963b332" target="_blank" rel="noopener noreferrer">
           <img src="/linkedin.png" alt="Logo LinkedIn" className="h-10 bg-white mr-4 rounded-xl" />

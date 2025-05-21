@@ -32,8 +32,6 @@ const Projet = () => {
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">HANDISUP</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
-          <span className="text-red-500 font-bold">CE PROJET EST EN ATTENTE D'UNE RÉPONSE.</span>
-          <br />
           En équipe sur ce projet, la NWS nous a mis en relation avec HANDISUP pour améliorer leur site web tout en 
           respectant certaines contraintes donnée par HANDISUP. <a href="https://handisup6.normandieweb.school/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Voici le site réalisé par le groupe.</a> Si le site venait à être choisi, une version responsive serais envisageable 
         </p>
