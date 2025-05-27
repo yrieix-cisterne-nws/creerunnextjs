@@ -1,3 +1,4 @@
+import { ContactUs } from "../component/Formulaire";
 import { Titre } from "../component/Titre";
 
 const Contact = () => {
@@ -6,14 +7,17 @@ const Contact = () => {
 
 
         <Titre title={"Pour me contacter"}/>
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 text-center">
-        <p>
-          <a href="mailto:ycisterne@normandiewebschool.fr" className="text-blue-500 underline">Me contacter par mail</a>
-          <br /><br />
-          Je suis actuellement sur Rouen
+      <section className="sm:flex flex p-6 bg-white rounded-lg text-center items-center">
+        <ContactUs/>
+        <p className="">
+        <a href="mailto:ycisterne@normandiewebschool.fr" className="text-blue-500 underline">ycisterne@normandiewebschool.fr</a>
+        <br /><br />
+        Actuellement sur Rouen
         </p>
+
       </section>
-    </div>
+      </div>
+
   );
 };
 
