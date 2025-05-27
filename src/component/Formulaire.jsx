@@ -10,7 +10,7 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+//"Template" de base de emailJS retrouvé juste ici : https://www.emailjs.com/docs/examples/reactjs/
     emailjs
       .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, {
         publicKey: PUBLIC_KEY,
@@ -27,9 +27,9 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className='flex flex-col mx-24 rounded-lg w-full max-w-md'>
-      <input type="text" name="user_name" placeholder='Prénom et nom' required className='mb-6 py-2 bg-gray-200'/>
-      <input type="email" name="user_email" placeholder='Email' required className='mb-6 py-2 px-2 bg-gray-200'/>
-       <textarea name="message" required placeholder="Bonjour" className='mb-6 py-2 px-2 bg-gray-200'/>
+      <input type="text" name="user_name" placeholder='Prénom et nom' required className='mb-6 py-2 bg-fond'/>
+      <input type="email" name="user_email" placeholder='Email' required className='mb-6 py-2 px-2 bg-fond'/>
+       <textarea name="message" required placeholder="Bonjour" className='mb-6 py-2 px-2 bg-fond'/>
       <input type="submit" value="Envoyer" className='bg-gray-400 py-2 px-2 cursor-pointer'/>
     </form>
   );

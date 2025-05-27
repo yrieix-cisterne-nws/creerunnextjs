@@ -2,12 +2,12 @@ import React from "react";
 
 const CV = () => {
   return (
-    <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center p-4 lg:flex-row lg:items-start lg:gap-8">
+    <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-fond font-sans flex flex-col justify-center items-center p-4 lg:flex-row lg:items-start lg:gap-8">
 
-      <div className="absolute top-36"><a href="/cv.pdf" download="CV_Yrieix_Cisterne" className="w-full bg-gray-700 text-white py-4 text-center font-bold text-2xl rounded-lg my-8 px-4 hover:bg-gray-900 transition duration-500">Télécharger mon CV</a></div>
-      <div className="bg-white mt-24 p-6 rounded-lg shadow-lg w-full max-w-2xl lg:w-2/3">
+      <div className="absolute top-36"><a href="/cv.pdf" download="CV_Yrieix_Cisterne" className="w-full bg-titre text-white py-4 text-center font-bold text-2xl rounded-lg my-8 px-4 hover:bg-gray-900 transition duration-500">Télécharger mon CV</a></div>
+      <div className="bg-blanc mt-24 p-6 rounded-lg shadow-lg w-full max-w-2xl lg:w-2/3">
         <div className="flex flex-col items-center">
-          <img src="photodemoi.png" alt="Tête de moi" className="w-auto h-auto rounded-full bg-white mb-4" />
+          <img src="photodemoi.png" alt="Tête de moi" className="w-auto h-auto rounded-full bg-blanc mb-4" />
           <p className="text-lg font-bold text-center">
             CISTERNE <br /> YRIEIX <br /> DEVELOPPEUR WEB
           </p>

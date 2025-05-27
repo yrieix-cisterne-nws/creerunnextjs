@@ -1,16 +1,15 @@
-import React from "react";
 import InterviewCarousel from "../component/Carousel";
 import { Link } from "react-router-dom";
 import { Titre } from "../component/Titre";
 
 const Projet = () => {
   return (
-    <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col items-center">
+    <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-fond font-sans flex flex-col items-center">
      <Titre title={"Mes Projets"}/>
 
       <InterviewCarousel/>
 
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
+      <section className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">Maquette du site</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
@@ -28,7 +27,7 @@ const Projet = () => {
         </div>
       </section>
 
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
+      <section className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">HANDISUP</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
@@ -39,7 +38,7 @@ const Projet = () => {
         </div>
       </section>
 
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
+      <section className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">Intégration d'une maquette Figma</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
@@ -51,7 +50,7 @@ const Projet = () => {
         </div>
       </section>
 
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
+      <section className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">Normandie Blog School</h2>
         <p>
         Ce projet a été réalisé à la Normandie Web School (NWS) en équipe avec d'autres élèves de la NWS comme des développeurs web
@@ -62,7 +61,7 @@ const Projet = () => {
         <img src="/projet/normandiebs.png" alt="Page Accueil Normandie Blog School" className="w-full mt-4 rounded-lg" />
       </section>
 
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
+      <section className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">Club eco St.Sever</h2>
         <p>
         Dans le cadre de ce projet, qui a été réalisé par la suite de la sollicitation du Club Eco St.Sever, 
@@ -72,7 +71,7 @@ const Projet = () => {
         <img src="/projet/clubeco.png" alt="Logo pour club eco St.Sever" className="w-full mt-4 rounded-lg" />
       </section>
 
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
+      <section className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">Logo personnel</h2>
         <div className="md:grid md:grid-cols-2">
         <p>
@@ -88,7 +87,7 @@ const Projet = () => {
         </div>
       </section>
 
-      <section className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6 mb-6">
+      <section className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl mt-6 mb-6">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">Projet Dés</h2>
         <p>
         J'ai réalisé ce projet en 2023 à l'aide de Python, il a été réalisé pendant mon année de première. 

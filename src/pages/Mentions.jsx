@@ -2,11 +2,11 @@ import { Titre } from "../component/Titre";
 
 const LegalMentions = () => {
     return (
-      <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center p-6">
+      <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-fond font-sans flex flex-col justify-center items-center p-6">
         <main className="text-center w-full max-w-3xl">
           <Titre title={"Mentions Légales"}/>
           
-          <section className="bg-white p-6 rounded-lg shadow-lg text-left space-y-6">
+          <section className="bg-blanc p-6 rounded-lg shadow-lg text-left space-y-6">
             <div>
               <h2 className="text-xl font-semibold">1. Éditeur du site</h2>
               <p>Nom : Cisterne Yrieix</p>

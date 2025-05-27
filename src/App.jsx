@@ -9,12 +9,14 @@ import Projet from "./pages/Projet";
 import Bio from "./pages/Bio";
 import Charte from "./pages/Charte";
 import Erreur from "./pages/Erreur";
+import { ScrollToTop } from "./component/Scrolltop";
 
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cv" element={<CV />} />

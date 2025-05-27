@@ -3,7 +3,7 @@ import { Titre } from "../component/Titre";
 
 const Bio = () => {
     return(
-        <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-gray-300 font-sans flex flex-col justify-center items-center">
+        <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-fond font-sans flex flex-col justify-center items-center">
 
         <main className="text-center p-6">
           <Titre title="Un peu plus sur moi"/>

@@ -17,7 +17,7 @@ const InterviewCarousel = () => {
   ];
 
   return (
-    <section style={{ fontFamily: 'Roboto'}}  className="p-6 bg-white rounded-lg shadow-lg mx-6 w-full max-w-4xl pr-4 ml-2 mr-2">
+    <section style={{ fontFamily: 'Roboto'}}  className="p-6 bg-blanc rounded-lg shadow-lg mx-6 w-full max-w-4xl pr-4 ml-2 mr-2">
       <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">Interview d'un étudiant</h2>
 
       <p>
