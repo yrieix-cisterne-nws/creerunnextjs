@@ -1,5 +1,5 @@
 <h1>Portfolio</h1>
-<p>Projet réalisé avec React et TailWindCSS, il me représente.</p>
+<p>Projet réalisé avec React et TailwindCSS. Ce portfolio présente mon parcours, mes projets.</p>
 
 ## Dépendances principales
 
