@@ -26,7 +26,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className='flex flex-col mx-24 rounded-lg w-full max-w-md'>
+    <form ref={form} onSubmit={sendEmail} className='flex flex-col lg:mx-24 rounded-lg w-full max-w-md'>
       <input type="text" name="user_name" placeholder='Prénom et nom' required className='mb-6 py-2 bg-fond'/>
       <input type="email" name="user_email" placeholder='Email' required className='mb-6 py-2 px-2 bg-fond'/>
        <textarea name="message" required placeholder="Bonjour" className='mb-6 py-2 px-2 bg-fond'/>

@@ -35,11 +35,14 @@ const Home = () => {
         </section>
         <div className="flex justify-center pb-4"><InterviewCarousel/></div>
   
-        <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/waterbackground.png")] w-full h-[100px] pt-4'>
-          <p id="status_text" className="flex justify-center content-center">
-            ACTUELLEMENT : <br /> <br /> EN STAGE
+        <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/lignedecode.png")] w-full bg-no-repeat bg-cover h-[100px] flex items-center justify-center'>
+
+          <p className="flex flex-col bg-white bg-opacity-85 px-10">
+            <span>ACTUELLEMENT : </span>
+            <span>&nbsp;</span>
+            <span>EN STAGE</span>
           </p>
-        </div>
+          </div>
       </main>
     );
   };

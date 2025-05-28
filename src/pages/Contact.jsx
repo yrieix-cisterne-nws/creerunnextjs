@@ -7,9 +7,10 @@ const Contact = () => {
 
 
         <Titre title={"Pour me contacter"}/>
-      <section className="sm:flex flex p-6 bg-blanc rounded-lg text-center items-center">
+      <section className="flex flex-col sm:flex-row sm:items-center p-6 rounded-lg items-start gap-5 bg-blanc">
+        
         <ContactUs/>
-        <p className="">
+        <p className="text-center sm:text-left">
         <a href="mailto:ycisterne@normandiewebschool.fr" className="text-blue-500 underline">ycisterne@normandiewebschool.fr</a>
         <br /><br />
         Actuellement sur Rouen

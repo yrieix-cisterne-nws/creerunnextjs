@@ -8,5 +8,4 @@ export const ScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [pathname]);  // Quand on détecte un changement d'url, on est remis en haut de la page
 
-  return null;
 };
