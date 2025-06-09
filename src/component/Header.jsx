@@ -56,7 +56,7 @@ export const Navbar = () => {
           <li>
             <Link
               to="/"
-              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${location.pathname === '/' ? 'bg-[#b89e14]' : ''}`}  //ternaire pour changer la couleur de fond du lien actif
+              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] transition-all duration-500 ${location.pathname === '/' ? 'bg-[#b89e14]' : ''}`}  //ternaire pour changer la couleur de fond du lien actif
               onClick={() => setIsOpen(false)}
             >
               Accueil
@@ -65,7 +65,7 @@ export const Navbar = () => {
           <li>
             <Link
               to="/cv"
-              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${location.pathname === '/cv' ? 'bg-[#b89e14]' : ''}`}
+              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] transition-all duration-500 ${location.pathname === '/cv' ? 'bg-[#b89e14]' : ''}`}
               onClick={() => setIsOpen(false)}
             >
               CV
@@ -74,7 +74,7 @@ export const Navbar = () => {
           <li>
             <Link
               to="/contact"
-              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${location.pathname === '/contact' ? 'bg-[#b89e14]' : ''}`}
+              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] transition-all duration-500 ${location.pathname === '/contact' ? 'bg-[#b89e14]' : ''}`}
               onClick={() => setIsOpen(false)}
             >
               Contact
@@ -83,7 +83,7 @@ export const Navbar = () => {
           <li>
             <Link
               to="/projet"
-              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${location.pathname === '/projet' ? 'bg-[#b89e14]' : ''}`}
+              className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] transition-all duration-500 ${location.pathname === '/projet' ? 'bg-[#b89e14]' : ''}`}
               onClick={() => setIsOpen(false)}
             >
               Projet
@@ -115,7 +115,7 @@ export const Navbar = () => {
         <li>
           <Link
             to="/"
-            className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${
+            className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] transition-all duration-1000 ${
             location.pathname === '/' ? 'bg-[#b89e14]' : ''}`}  //ternaire pour changer la couleur de fond du lien actif
             onClick={() => setIsOpen(false)}
             >
@@ -145,7 +145,7 @@ export const Navbar = () => {
         <li>
           <Link
           to="/projet"
-          className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] ${
+          className={`block p-4 text-white z-100 hover:bg-[#4e4e4e] transition ${
           location.pathname === '/projet' ? 'bg-[#b89e14]' : ''}`}
           onClick={() => setIsOpen(false)}
           >

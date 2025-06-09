@@ -12,7 +12,7 @@ export const useDarkMode = () => {
     } else {
       document.documentElement.classList.remove("dark");
     }
-    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+    localStorage.setItem("darkMode", JSON.stringify(darkMode)); // Save le choix de l'utilisateur
   }, [darkMode]);
 
   const toggleDarkMode = () => setDarkMode(prev => !prev);

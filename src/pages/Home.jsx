@@ -15,7 +15,7 @@ const Home = () => {
             <img src="photodemoi.png" alt="Yrieix Cisterne" className="h-[100px] block m-auto sm:h-[250px] lg:h-[250px]" />
             
             <div id="main_text" style={{ fontFamily: 'Roboto'}} className="mx-auto max-w-7xl text-black dark:text-white pt-4">
-              <p className="background_text p-5 bg-blanc dark:bg-blancDark rounded-[50px] mb-5 mx-[5px]">
+              <p className="background_text p-5 bg-blanc dark:bg-blancDark rounded-[25px] mb-5 mx-[5px]">
               Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en
             première année de Bachelor Chef de Projets Digitaux. J'étudie à la
             Normandie Web School de Rouen. Passionné par le numérique, j'ai
