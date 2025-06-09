@@ -5,7 +5,7 @@ const CV = () => {
     <div style={{ fontFamily: 'Roboto'}} className="min-h-screen bg-fond dark:bg-fondDark font-sans flex flex-col justify-center items-center p-4 lg:flex-row lg:items-start lg:gap-8">
 
       <div className="absolute top-36"><a href="/cv.pdf" download="CV_Yrieix_Cisterne" className="w-full bg-titre text-white py-4 text-center font-bold text-2xl rounded-lg my-8 px-4 hover:bg-gray-900 dark:bg-fond dark:text-black">Télécharger mon CV</a></div>
-      <div className="bg-blanc dark:bg-blancDark dark:text-white mt-24 p-6 rounded-lg shadow-lg w-full max-w-2xl lg:w-2/3">
+      <div className="bg-blanc dark:bg-blancDark dark:text-white mt-24 p-6 rounded-lg w-full max-w-2xl lg:w-2/3">
         <div className="flex flex-col items-center">
           <img src="photodemoi.png" alt="Tête de moi" className="w-auto h-auto rounded-full mb-4" />
           <p className="text-lg font-bold text-center">
@@ -49,7 +49,7 @@ const CV = () => {
       </div>
 
 
-      <section className="bg-gray-200 dark:bg-gray-600 dark:text-white p-6 rounded-lg shadow-lg w-full max-w-2xl lg:w-1/3 lg:self-start lg:mt-[39rem]">
+      <section className="bg-gray-200 dark:bg-gray-600 dark:text-white p-6 rounded-lg w-full max-w-2xl lg:w-1/3 lg:self-start lg:mt-[39rem]">
         <div className="text-center">
           <p className="text-xl font-bold">FORMATION</p>
           <div className="mt-4">

@@ -152,15 +152,6 @@ export const Navbar = () => {
             Projet
           </Link>
         </li>
-        <li>
-          <button
-            onClick={toggleDarkMode}
-            className="block p-4 text-white z-100 hover:bg-[#4e4e4e] w-full text-left"
-            aria-label="Toggle dark mode"
-          >
-            {darkMode ? 'Light Mode' : 'Dark Mode'}
-          </button>
-        </li>
       </ul>
     </nav>
   );

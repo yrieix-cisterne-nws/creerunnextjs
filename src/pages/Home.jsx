@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import InterviewCarousel from "../component/Carousel";
+import { ProjetTexteSeul } from "../component/Projettexte";
 import { Titre } from "../component/Titre";
 
 
@@ -33,7 +33,12 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <div className="flex justify-center pb-4"><InterviewCarousel/></div>
+        <div className="flex justify-center pb-4"><ProjetTexteSeul title={"Normandie Blog School"}
+                                description={"Ce projet a été réalisé à la Normandie Web School (NWS) en équipe avec d'autres élèves de la NWS comme des développeurs web et des Graphistes, nous avons décidé de partie sur un blog d'entraide entre personne de l'école, "}
+                                image={"/projet/normandiebs.png"}
+                                alt={"Page Accueil Normandie Blog School"}
+                                link={"https://nino-rameau.github.io/normandie-blog-school/index.html"}
+                                linktext={"Vous pouvez consultez le site ici."}/></div>
   
         <div style={{ fontFamily: 'Roboto'}} className='bg-[url("./assets/images/lignedecode.png")] w-full bg-no-repeat bg-cover h-[100px] flex items-center justify-center'>
 
