@@ -5,7 +5,7 @@ import { Titre } from "../component/Titre";
 
 const Home = () => {
     return (
-      <main style={{ fontFamily: 'Roboto'}} className="bg-fond">
+      <main style={{ fontFamily: 'Roboto'}} className="bg-fond dark:bg-fondDark">
   
         <section>
           <div>
@@ -14,8 +14,8 @@ const Home = () => {
 
             <img src="photodemoi.png" alt="Yrieix Cisterne" className="h-[100px] block m-auto sm:h-[250px] lg:h-[250px]" />
             
-            <div id="main_text" style={{ fontFamily: 'Roboto'}} className="justify-center top-1/2 text-black pt-4">
-              <p className="background_text p-5 bg-blanc rounded-[50px] mb-5 mx-[5px]">
+            <div id="main_text" style={{ fontFamily: 'Roboto'}} className="mx-auto max-w-7xl text-black dark:text-white pt-4">
+              <p className="background_text p-5 bg-blanc dark:bg-blancDark rounded-[50px] mb-5 mx-[5px]">
               Je m'appelle Yrieix Cisterne. J'ai 18 ans. Je suis étudiant en
             première année de Bachelor Chef de Projets Digitaux. J'étudie à la
             Normandie Web School de Rouen. Passionné par le numérique, j'ai
@@ -40,7 +40,7 @@ const Home = () => {
           <p className="flex flex-col bg-white bg-opacity-85 px-10">
             <span>ACTUELLEMENT : </span>
             <span>&nbsp;</span>
-            <span>EN STAGE</span>
+            <span>En recherche d'alternance.</span>
           </p>
           </div>
       </main>

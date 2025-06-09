@@ -3,11 +3,11 @@ import { Titre } from "../component/Titre";
 
 const Contact = () => {
   return (
-    <div style={{ fontFamily: 'Roboto'}}  className="min-h-screen bg-fond font-sans flex flex-col items-center">
+    <div style={{ fontFamily: 'Roboto'}}  className="min-h-screen bg-fond dark:bg-fondDark font-sans flex flex-col items-center">
 
 
         <Titre title={"Pour me contacter"}/>
-      <section className="flex flex-col sm:flex-row sm:items-center p-6 rounded-lg items-start gap-5 bg-blanc">
+      <section className="flex flex-col sm:flex-row sm:items-center p-6 rounded-lg items-start gap-5 bg-blanc dark:bg-blancDark dark:text-white ">
         
         <ContactUs/>
         <p className="text-center sm:text-left">
