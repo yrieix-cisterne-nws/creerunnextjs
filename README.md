@@ -83,7 +83,7 @@ Ce portfolio a été conçu pour mettre en avant mon profil, mes expériences et
 3. **Configurer Tailwind CSS (si besoin) :**
    - Le fichier `tailwind.config.js` est déjà prêt, mais vous pouvez l’adapter à vos besoins.
 
-4. **Configurer EmailJS et reCAPTCHA :**
+4. **Configurer EmailJS :**
    - Renseignez vos clés API dans les fichiers concernés (`.env` ou directement dans le code selon votre organisation).
 
 ### Lancement en développement
