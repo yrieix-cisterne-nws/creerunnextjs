@@ -45,7 +45,6 @@ Ce portfolio a été conçu pour mettre en avant mon profil, mes expériences et
 - **TailwindCSS** : Framework CSS utilitaire pour un design moderne et responsive.
 - **React Router DOM** : Navigation entre les pages.
 - **Swiper** : Carrousel pour la section projets.
-- **React Icons** : Bibliothèque d’icônes vectorielles.
 - **EmailJS** : Envoi d’emails via le formulaire de contact.
 
 ---
