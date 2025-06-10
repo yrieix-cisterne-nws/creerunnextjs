@@ -7,7 +7,7 @@ const CV = () => {
       <div className="absolute top-36"><a href="/cv.pdf" download="CV_Yrieix_Cisterne" className="w-full bg-titre text-white py-4 text-center font-bold text-2xl rounded-lg my-8 px-4 hover:bg-gray-900 dark:bg-fond dark:text-black">Télécharger mon CV</a></div>
       <div className="bg-blanc dark:bg-blancDark dark:text-white mt-24 p-6 rounded-lg w-full max-w-2xl lg:w-2/3">
         <div className="flex flex-col items-center">
-          <img src="photodemoi.png" alt="Tête de moi" className="w-auto h-auto rounded-full mb-4" />
+          <img src="photodemoi.png" alt="Tête de moi" className="w-auto h-96 rounded-full mb-4" />
           <p className="text-lg font-bold text-center">
             CISTERNE <br /> YRIEIX <br /> DEVELOPPEUR WEB
           </p>
