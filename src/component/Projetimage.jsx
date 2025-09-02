@@ -1,6 +1,6 @@
 export const ProjetTexteImage = ({title, description, image, alt, download1, downloadtext, link, linktext}) => {
     return(
-    <section className="p-6 bg-blanc rounded-lg mx-6 w-full max-w-4xl mt-6 dark:bg-blancDark dark:text-white">
+    <section className="p-6 bg-blanc rounded-lg mx-6 w-full max-w-4xl mt-6 mb-2 dark:bg-blancDark dark:text-white">
         <h2 style={{fontFamily: 'Roboto Mono'}} className="text-xl font-semibold mb-2">{title}</h2>
         <div className="md:grid md:grid-cols-2">
             <div>

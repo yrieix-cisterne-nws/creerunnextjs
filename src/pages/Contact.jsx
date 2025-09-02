@@ -3,7 +3,7 @@ import { Titre } from "../component/Titre";
 
 const Contact = () => {
   return (
-    <div style={{ fontFamily: 'Roboto'}}  className="min-h-screen bg-fond dark:bg-fondDark font-sans flex flex-col items-center">
+    <div style={{ fontFamily: 'Roboto'}}  className="min-h-[81vh] bg-fond dark:bg-fondDark font-sans flex flex-col items-center">
 
 
         <Titre title={"Pour me contacter"}/>
